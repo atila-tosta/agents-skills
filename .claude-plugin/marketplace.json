@@ -1,0 +1,22 @@
+{
+  "name": "agents-skills",
+  "owner": { "name": "Atila Tosta" },
+  "metadata": { "description": "Minha coleção pessoal de skills para o Claude" },
+  "plugins": [
+    {
+      "name": "pessoal",
+      "source": "./plugins/pessoal",
+      "description": "Skills de uso pessoal no dia-a-dia"
+    },
+    {
+      "name": "trabalho",
+      "source": "./plugins/trabalho",
+      "description": "Skills de trabalho como Arquiteto de IA"
+    },
+    {
+      "name": "conteudo",
+      "source": "./plugins/conteudo",
+      "description": "Skills de criação de conteúdo: texto, áudio, vídeo e afins"
+    }
+  ]
+}
